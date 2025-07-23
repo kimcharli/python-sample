@@ -41,9 +41,9 @@ test = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ckim/python-sample"
-Repository = "https://github.com/ckim/python-sample"
-Issues = "https://github.com/ckim/python-sample/issues"
+Homepage = "https://github.com/kimcharlie/python-sample"
+Repository = "https://github.com/kimcharlie/python-sample"
+Issues = "https://github.com/kimcharlie/python-sample/issues"
 
 [tool.hatch.version]
 path = "src/directives/__init__.py"
