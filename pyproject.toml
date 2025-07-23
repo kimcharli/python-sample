@@ -46,10 +46,10 @@ Repository = "https://github.com/kimcharli/python-sample"
 Issues = "https://github.com/kimcharli/python-sample/issues"
 
 [tool.hatch.version]
-path = "src/directives/__init__.py"
+path = "src/python_sample/__init__.py"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/directives"]
+packages = ["src/python_sample"]
 
 [tool.ruff]
 target-version = "py39"
@@ -95,7 +95,7 @@ python_functions = ["test_*"]
 addopts = [
     "--strict-markers",
     "--strict-config",
-    "--cov=src/directives",
+    "--cov=src/python_sample",
     "--cov-report=term-missing",
     "--cov-report=html",
     "--cov-report=xml",
@@ -141,4 +141,4 @@ extend-exclude = '''
 profile = "black"
 multi_line_output = 3
 line_length = 88
-known_first_party = ["directives"]
+known_first_party = ["python_sample"]

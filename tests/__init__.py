@@ -1,1 +1,1 @@
-"""Tests for directives package."""
+"""Tests for python_sample package."""

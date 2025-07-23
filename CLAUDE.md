@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Python project called "directives" for AI-assisted coding, managed with uv and configured for PyPI publishing. The project follows modern Python packaging standards with comprehensive development tooling.
+This is a Python project called "python_sample" for AI-assisted coding, managed with uv and configured for PyPI publishing. The project follows modern Python packaging standards with comprehensive development tooling.
 
 ## Development Commands
 
@@ -67,7 +67,7 @@ uv add --dev package-name
 
 ```
 src/
-├── directives/          # Main package
+├── python_sample/       # Main package
 │   └── __init__.py     # Version and package info
 tests/                  # Test files
 ├── __init__.py
