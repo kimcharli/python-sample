@@ -29,8 +29,7 @@ uv run pytest
 uv run pytest --cov
 
 # Format code
-uv run black src/ tests/
-uv run isort src/ tests/
+uv run ruff format
 
 # Lint code
 uv run ruff check src/ tests/
